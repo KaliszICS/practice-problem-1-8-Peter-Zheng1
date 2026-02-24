@@ -19,6 +19,7 @@ class Notes {
 		// int num;
 		
 		//Runtime - An Error that happens while they program is running/executing
+		//Is always an exception in Java
 
 		//division by zero
 		//input mismatchexception - wrong data type input
@@ -27,7 +28,7 @@ class Notes {
 		// int num;
 		// Scanner s = new Scanner(System.in);
 		// num = s.nextInt();
-		// System.out.println(5 / 0);
+		// System.out.println(5 / num);
 
 		//Logical - Errors where your does something other than it was intended to do.
 
@@ -44,6 +45,15 @@ class Notes {
 
 		//Output num1 and num2 added together
 		System.out.println(num + num2);
+
+		//add num1 and num2 together
+		System.out.println(num1 + num2); //shouldn't output
+
+		//Output num1 and num2 multiplied together
+		num1 = 2;
+		num2 = 2;
+		System.out.println(num1 + num2);
+
 		
 
 
